@@ -27,11 +27,7 @@ function googleSignin() {
       for (var a = 0; a<alphabet.length; a++){
     
         if (fge.includes(alphabet[a])){
-            
-            ester++
-            if (ester>0){
                 window.location.replace('https://learning.amplify.com')
-            }
             
         } else {
                 var win = window.open('about:blank')
